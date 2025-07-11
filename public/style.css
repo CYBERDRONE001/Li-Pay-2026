@@ -1,0 +1,8 @@
+body { margin:0;padding:0;font-family:Arial,sans-serif;background:#121212;color:#eee; }
+.login-container, .dashboard { max-width:400px;margin:40px auto;text-align:center; }
+.title { color:#4e9eff;font-size:2em; }
+input, button { display:block;width:90%;padding:10px;margin:10px auto;border-radius:5px;border:1px solid #333;background:#1e1e1e;color:#fff; }
+.dashboard .top-bar { display:flex;justify-content:space-between;align-items:center;background:#1f1f1f;color:#fff;padding:10px; }
+.apps-grid { display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px; }
+.app-card { background:#2a2a2a;color:#fff;padding:10px;border-radius:8px;text-align:center; }
+.app-card img { max-width:100%;height:auto;border-radius:4px; }
